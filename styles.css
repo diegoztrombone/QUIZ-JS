@@ -31,6 +31,11 @@ label {
 
 label:hover {
   cursor: pointer;
+  background-color: rgb(211, 210, 240);
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 h1 {
