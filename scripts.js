@@ -3,7 +3,7 @@ const correctAnswer = {
     q1: "La vaca",
     q2: "Fibra óptica",
     q3: "Counter Strike",
-    q4: "Porque no sabemos construir",
+    q4: "Porque ya están los de UX/UI para eso",
     q5: "Test1"
 }
  
@@ -26,10 +26,10 @@ const q3 = {
     v4: "Buscaminas"
 }
 const q4 = {
-    v1: "Porque somos unos mancos",
-    v2: "Porque no sabemos construir",
+    v1: "Porque es un manco",
+    v2: "Porque ya están los de UX/UI para eso",
     v3: "Porque 'es un mundo difficcile'",
-    v4: "Porque somos unos Pro Players"
+    v4: "Porque no mola"
 }
 const q5 = {
     v1: "Test1",
@@ -40,7 +40,7 @@ const q5 = {
 const qh1 = "¿Qué eligiría molpe si se quedara abandonado en una isla desierta?"
 const qh2 = "¿Que le falta al pueblo de Giorgio para ser perfecto?"
 const qh3 = "¿Cual es el juego favorito de Zeta?"
-const qh4 = "¿Por qué no ganamos nunca al Fornite?"
+const qh4 = "¿Por qué a Giorgio no le gusta CSS?"
 const qh5 = "PREGUNTA TEST"
 
 const selectorHead = document.querySelector("#question-header")
