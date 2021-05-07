@@ -110,13 +110,15 @@ function questionWrapper () {
     for (item of questionButton) {
         item.addEventListener("click", (event) => {
             if (event.path[0].innerHTML === arrAnswer[count] ) {
-                //answerBox.innerHTML = "<p> Respuesta Correcta </p>"
-                alert("RESPUESTA CORRECTA")
+                answerBox.innerHTML = "<p> Respuesta Correcta </p>"
+                answerBox.style.color = "green"
+                // alert("RESPUESTA CORRECTA")
                 count++
                 questionFunction[count]()
             } else {
-                alert("RESPUESTA INCORRECTA")
-                //answerBox.innerHTML = "<p> Respuesta Incorrecta </p>"
+                // alert("RESPUESTA INCORRECTA")
+                answerBox.innerHTML = "<p> Respuesta Incorrecta </p>"
+                answerBox.style.color = "red"
             }
         })    
     }        
