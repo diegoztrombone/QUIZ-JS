@@ -154,13 +154,3 @@ a {
   text-decoration: none;
   color: black;
 }
-
-#finish {
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
-#start {
-  margin-top: 50px;
-}
